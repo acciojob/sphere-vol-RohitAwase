@@ -1,6 +1,6 @@
 function volume_sphere() {
     let r = document.forms["MyForm"]["radius"].value
-	document.forms["myForm"]["volume"].value = 4/3*Math.PI*r**3 
+	document.forms["MyForm"]["volume"].value = 4/3*Math.PI*r**3 
   
 } 
 
