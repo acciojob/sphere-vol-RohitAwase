@@ -1,6 +1,7 @@
 function volume_sphere() {
-    //Write your code here
+    let r = document.forms["MyForm"]["radius"].value
+	document.forms["myForm"]["volume"].value = 4/3*Math.PI*r**3 
   
 } 
 
-window.onload = document.getElementById('MyForm').onsubmit = volume_sphere;
+window.onload = document.getElementById('MyForm').onsubmit = volume_spher
