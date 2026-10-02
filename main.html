@@ -10,12 +10,12 @@ label,input{display:block;}
 </head>
 <body>
 	<p>Input radius value and get the volume of a sphere.</p>
-	<form action="" method="post" id="MyForm">
+	<form action="" method="post" id="MyForm" onsubmit="volume_sphere(); return false;">
 	<label for="radius">Radius</label>
 		<input type="text" name="radius" id="radius" required>
 	<label for="volume">Volume</label>
 		<input type="text" name="volume" id="volume">
-	<input type="submit" onsubmit="volume_sphere(); return false;" value="Calculate" id="submit">   
+	<input type="submit" value="Calculate" id="submit">   
 	</form>
 	<script type="text/javascript" src="./script.js"></script>
 </body>
